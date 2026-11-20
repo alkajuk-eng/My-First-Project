@@ -1,37 +1,38 @@
-# OceanExplorer – Scuba Diving Tours
+# OceanExplorer
+
+A responsive multi-page website for a fictional scuba diving tour company. The project showcases scuba diving experiences, tour information, underwater photography and contact details.
 
 ## Project Overview
 
-OceanExplorer is a responsive multi-page website created as my first HTML and CSS learning project.
-
-The website presents scuba diving tours, introduces the company, showcases underwater photography and provides a contact page for visitors interested in diving experiences.
-
-The project focuses on building a clean layout, consistent navigation and a user-friendly experience across different screen sizes.
+OceanExplorer is a front-end web development project built using HTML5 and CSS3. It focuses on clean design, responsive layouts, accessible navigation and consistent styling across multiple pages.
 
 ## Features
 
-- Responsive website layout
-- Multi-page navigation
-- Home page with an introduction to scuba diving
-- About Us page
-- Tours page presenting diving experiences
-- Gallery featuring underwater photography
-- Contact page with an HTML form
-- Consistent header and footer across all pages
-- Accessible navigation and focus styles
+- Responsive design for desktop, tablet and mobile devices
+- Multi-page website with consistent navigation
+- Dedicated pages for company information and diving tours
+- Underwater photography gallery
+- Contact form with HTML form validation
+- Accessible navigation with skip links and descriptive image text
+- CSS variables for consistent styling
+- Responsive layouts using CSS Grid and Flexbox
+- Reduced motion support
 
 ## Technologies Used
 
 - HTML5
 - CSS3
-- Google Fonts (Montserrat)
-- Visual Studio Code
-- Git and GitHub
+- CSS Grid
+- Flexbox
+- CSS Media Queries
+- Google Fonts
+- Git
+- GitHub
 
 ## Project Structure
 
 ```text
-My-First-Site/
+My-First-Project/
 │
 ├── index.html
 ├── about-us.html
@@ -39,40 +40,55 @@ My-First-Site/
 ├── gallery.html
 ├── contact_us.html
 ├── style.css
+├── README.md
 │
-└── gallery/
-    ├── foto1.jpg
-    ├── foto2.jpg
-    ├── foto3.jpg
-    ├── foto4.jpg
-    ├── foto5.jpg
-    └── foto6.jpg
+├── gallery/
+│   └── Gallery images
+│
+├── images/
+│   └── Website images
+│
+└── .vscode/
+    └── Editor settings
 ```
+
+## Pages
+
+| Page | Description |
+|---|---|
+| `index.html` | Homepage and introduction |
+| `about-us.html` | Information about the company |
+| `tours.html` | Scuba diving tours |
+| `gallery.html` | Underwater photography |
+| `contact_us.html` | Contact information and enquiry form |
 
 ## Getting Started
 
-To view the website locally:
+1. Clone the repository:
 
-1. Clone or download this repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in your browser.
-4. Alternatively, use the Live Server extension in Visual Studio Code.
+   ```bash
+   git clone https://github.com/alkajuk-eng/My-First-Project.git
+   ```
+
+2. Open the project folder.
+
+3. Open `index.html` in your web browser.
+
+Alternatively, use the Live Server extension in Visual Studio Code.
 
 ## Future Improvements
 
-- Add a functional contact form with backend integration.
-- Improve website functionality with JavaScript.
-- Add more diving destinations and tour information.
-- Continue improving accessibility and responsive design.
+- Implement JavaScript functionality.
+- Connect the contact form to a backend service.
+- Improve interactive features.
+- Perform additional accessibility and performance testing.
 
-## Project Purpose
+## Author
 
-This project was developed as part of my journey into web development.
+**Igors Kozlovs**
 
-It demonstrates my understanding of HTML structure, CSS styling, multi-page website development and basic responsive design.
+GitHub: [alkajuk-eng](https://github.com/alkajuk-eng)
 
 ---
 
-**Author:** Igors Kozlovs
-
-**GitHub:** [My GitHub Profile](https://github.com/alkajuk-eng)
+This project was created as part of my journey into front-end web development.
