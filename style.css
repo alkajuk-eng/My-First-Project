@@ -722,9 +722,7 @@ textarea {
         gap: 13px;
     }
 }
-/* ==============================
-   REDUCED MOTION
-================================ */
+/* REDUCED MOTION */
 @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
