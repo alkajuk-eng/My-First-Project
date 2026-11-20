@@ -1,73 +1,93 @@
-<!doctype html>
-<html>
-  <!--Title section-->
-  <head>
-    <title>Explore the Ocean with Scuba Diving Tours</title>
-    <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="Discover unforgettable scuba diving tours and holidays. Explore vibrant reefs, crystal-clear waters, and amazing marine life with expert guides."
-    />
-    <meta name="author" content="Igors Kozlovs" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-  </head>
-
-  <body>
-    <!--Navigation section-->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tours.html">Tours</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="contact_us.html">Contact Us</a></li>
-      </ul>
-    </nav>
-
-    <!--Contact Form section-->
-    <section class="contact">
-      <h2>Send us a message:</h2>
-      <form action="form-handler.php" method="post">
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname" value="David" />
-        <label for="surname">Last Name</label>
-        <input type="text" id="surname" name="surname" value="Smith" />
-        <input type="submit" value="Submit" />
-      </form>
-    </section>
-
-    <!--Footer section-->
-    <footer>
-      <div class="footer-content">
-        <p>
-          &copy; 2026 Explore the Ocean with Scuba Diving Tours. All rights
-          reserved.
-        </p>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="tours.html">Tours</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="about-us.html">About Us</a></li>
-          <li><a href="contact_us.html">Contact Us</a></li>
-        </ul>
-        <p class="footer-social">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </p>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact OceanExplorer to learn more about our scuba diving tours and underwater adventures.">
+    <meta name="author" content="OceanExplorer">
+    <meta name="theme-color" content="#123047">
+    <title>Contact Us | OceanExplorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">Ocean<span>Explorer</span></a>
+            <nav class="navigation" aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact_us.html" class="active" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="tours.html" class="nav-button">Explore Tours</a>
+        </div>
+    </header>
+    <main id="main-content">
+        <section class="section-padding contact-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-subtitle">GET IN TOUCH</p>
+                    <h1>Contact Us</h1>
+                    <p>Have a question about our scuba diving tours? Send us a message and find out more about your next underwater adventure.</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Let's Talk About Your Next Adventure</h2>
+                        <p>Whether you are a beginner or an experienced diver, we would be happy to help you discover the underwater world.</p>
+                        <p>Complete the form and let us know how we can help you.</p>
+                    </div>
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form action="form-handler.php" method="post">
+                            <div class="form-group">
+                                <label for="firstname">First Name</label>
+                                <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" autocomplete="given-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="surname">Last Name</label>
+                                <input type="text" id="surname" name="surname" placeholder="Enter your last name" autocomplete="family-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <p class="form-note">Please note: message submission requires a server-side form handler.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">Ocean<span>Explorer</span></a>
+                <p>Discover the beauty of the underwater world.</p>
+            </div>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="tours.html">Tours</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact_us.html">Contact</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 OceanExplorer. All rights reserved.</p>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
